@@ -1,0 +1,37 @@
+import { defineMessages } from 'react-intl'
+
+const messages = defineMessages({
+  app_name: 'theBetterSoft',
+  sign_in: '登录',
+  sign_out: '登出',
+  username: '用户名',
+  password: '密码',
+  about: '关于我们',
+  home: '首页',
+  page_not_found: '页面丢失',
+  settings: '设置',
+  theme: '配色',
+  default: '默认',
+  red: '红色',
+  green: '绿色',
+  language: '语言',
+  en: 'English',
+  de: 'Deutsch',
+  ru: 'Русский',
+  cn: '中文',
+  menu: '菜单',
+  menu_mini_mode: '精简菜单',
+  offline: '离线',
+  product: '产品',
+  simulator: '短信网关模拟器',
+  download: '下载',
+  user_download: '用户下载区',
+  how_to_buy: '如何购买',
+  price: '价格咨询',
+  support: '技术支持',
+  bug_report: 'Bug报告',
+  link: '友情链接',
+  intro: '公司介绍',
+})
+
+export default messages

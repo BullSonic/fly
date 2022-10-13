@@ -1,0 +1,6 @@
+{
+    "prettier.insertPragma": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.tabWidth": 4,
+    "eslint.quiet": true
+}
