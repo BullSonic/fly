@@ -6,19 +6,44 @@ const config = {
         "website_url": "http://www.thebettersoft.com",
     },
     "_page": {
-        max_width: 800,
+        max_width: 1280,
         landing_page: `LandingPage`,
     },
     "_routes": [
         {
             path: "/",
-            component: "LandingPage",
+            component: "HomePage/HomePage",
             exactly: true,
         },
         {
-            path: "/pro",
-            component: "module/ProTip",
+            path: "/product",
+            component: "Product",
             exactly: true,
+        },
+        {
+            path: '/product_detail/:pid',
+            exact: true,
+            component: "ProductDetail",
+        },
+        {
+            path: '/FAQ',
+            exact: true,
+            component: "FAQ",
+        },
+        {
+            path: '/intro',
+            exact: true,
+            component: "CompanyIntro",
+        },
+        {
+            path: '/about',
+            exact: true,
+            component: "CompanyIntro",
+        },
+        {
+            path: '/contact-us',
+            exact: true,
+            component: "ContactUs",
         },
     ],
     "_menu": {
@@ -29,7 +54,7 @@ const config = {
     },
     "_locale": {
         locales,
-        locales_default: [["zh-CN", "en-US"], "en-US"],
+        locales_default: [["zh-CN", "en-US"], "zh-CN"],
     },
     "_api": {
         "current": [["firebase", "fly_native"], "firebase"],

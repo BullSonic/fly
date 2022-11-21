@@ -23,7 +23,26 @@ const messages = defineMessages({
   menu_mini_mode: 'Mini menu',
   offline: 'Offline',
   public_title: 'ewr',
-  intro: 'Introduction',
+  link: 'Links',
+  headerTitle1: 'SMSC/SMS Gateway Simulator',
+  headerTitle2: 'Drag you out from redundant integration work',
+  headerParagraph1: 'Reduce 70% remote integration workload',
+  headerButtonText: 'Downlad Latest!',
+  headerParagraph2: 'Embrace new experience on integration',
+  categoriesTitle: 'SMS gateway simulators and SMS platform',
+  title101: 'SMS gateway Simulator',
+  title102: 'China Telcom SMGP Simulator',
+  title103: 'SMS platform',
+  title104: 'CMCC Provision Interface',
+  title105: 'SMSC/SMPP Simulator',
+  consultTitle: 'Want to know more?',
+  consultParagraph1: 'Please send us email with your request',
+  consultPlaceholder: 'Your request',
+  consultButtonText: 'Send Email',
+  consultResponse: 'After receiving your email, we will reply to you within 3 bussiness days.',
+  supportTitle: 'Need help during integration?',
+  supportParagraph: 'We are serving at your side!',
+
 })
 
 export default messages

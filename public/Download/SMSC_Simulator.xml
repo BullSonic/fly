@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>2.01</MASTER_PAD_VERSION>
+	</MASTER_PAD_VERSION_INFO>
+	<Program_Info>
+		<Program_Name>SMSC Simulator</Program_Name>
+		<Program_Version>1.0</Program_Version>
+		<Program_Release_Month></Program_Release_Month>
+		<Program_Release_Day></Program_Release_Day>
+		<Program_Release_Year></Program_Release_Year>
+		<Program_Cost_Dollars>$999.00</Program_Cost_Dollars>
+		<Program_Type></Program_Type>
+		<Program_OS_Support>Windows NT, Windows 2k, Windows XP, Windows 2003 Server</Program_OS_Support>
+		<Program_System_Requirements></Program_System_Requirements>
+		<Expire_Info>
+			<Has_Expire_Info></Has_Expire_Info>
+			<Expire_Count></Expire_Count>
+			<Expire_Based_On>N/A</Expire_Based_On>
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Char_Desc_450><![CDATA[The SMSC Simulator product include 3 parts.
+
+The SMPP Decoder is a professional tool that you can use it to display SMPP 3.4 messages for detailed analysis.
+
+The SMSC Simulator is a service for near-to-live testing of your SMPP applications without need of access to real SMSC. The application behaves as a real SMSC with SMPP interface, your application can bind to it, submit_sm, deliver_sm, unbind etc., , however nothing will get delivered anywhere as all the responses are only made-up by the Simulator. It also supports multiple connection but the authentication information is ignored.
+
+The Mobile Server is a simulator, since the SMSC Simulator can't send real short message to Mobile user, so it will forward short message between SMSC and mobile phone simulator(full version include).]]></Char_Desc_450>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.better-soft.com</Application_Info_URL>
+			<Application_Screenshot_URL>http://www.better-soft.com/Download/Trial/Screenshot.jpg</Application_Screenshot_URL>
+			<Application_Icon_URL></Application_Icon_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.better-soft.com/Download/Trial/SMSCSimulatorTrial.rar</Primary_Download_URL>
+		</Download_URLs>
+	</Web_Info>
+</XML_DIZ_INFO>
